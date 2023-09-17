@@ -1,8 +1,13 @@
-Installation
+Clone Project
 ============
-
 This project is a medical records management system built using Django
 
+```
+git clone https://github.com/Prosoffice/medi2dataInterviewTest.git
+```
+
+Installation
+============
 You can create a virtual environment as follows:
 
 ```
@@ -16,11 +21,9 @@ Set up DB
 =========
 
 The following commands create the required database tables in a
-local sqlite db, and load in some sample data.
+local sqlite db
 
 ```
-source venv/bin/activate
-cd medi2data
 # run migrations
 ./manage.py migrate
 ````
@@ -29,8 +32,6 @@ Run project
 ===========
 
 ```
-source venv/bin/activate
-cd medi2data
 ./manage.py runserver
 ````
 
@@ -49,7 +50,5 @@ Run test suite
 ==============
 
 ```
-source venv/bin/activate
-cd medi2data
 ./manage.py test
 ````
