@@ -1,0 +1,10 @@
+# Ignore Python compiled files
+__pycache__/
+
+# Ignore Python cache
+*.pyc
+.DS_Store
+.idea
+# Ignore Python environment
+venv/
+env/
