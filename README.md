@@ -52,3 +52,9 @@ Run test suite
 ```
 ./manage.py test
 ````
+Create an HealthCare Admin account
+============
+```
+ ./manage.py createsuperuser
+```
+Follow the prompt in creating an admin account using a username, email and password
