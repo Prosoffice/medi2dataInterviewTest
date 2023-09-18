@@ -11,7 +11,6 @@ Installation
 You can create a virtual environment as follows:
 
 ```
-cd medi2data
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -25,6 +24,7 @@ local sqlite db
 
 ```
 # run migrations
+cd medi2data
 ./manage.py migrate
 ````
 
