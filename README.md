@@ -28,24 +28,6 @@ cd medi2data
 ./manage.py migrate
 ````
 
-Run project
-===========
-
-```
-./manage.py runserver
-````
-
-This runs the Django devserver on port 8000.
-
-You can now access the API using curl, e.g.
-
-```
-curl http://localhost:8000/admin
-```
-
-or go to http://localhost:8000/admin in your browser
-
-
 Run test suite
 ==============
 
@@ -58,3 +40,14 @@ Create an HealthCare Admin account
  ./manage.py createsuperuser
 ```
 Follow the prompt in creating an admin account using a username, email and password
+
+Run project
+===========
+
+```
+./manage.py runserver
+````
+
+This runs the Django devserver on port 8000.
+
+Go to http://localhost:8000/admin on your browser and authenticate using the admin credentials created earlier
